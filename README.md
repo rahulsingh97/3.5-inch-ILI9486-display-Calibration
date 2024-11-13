@@ -104,10 +104,6 @@ When you touch the screen:
 
 ---
 
-## 📸 Demo Image
-*(Placeholder for the image illustrating a person touching the crosshair and the serial output showing the calibration values)*
-
----
 
 ## 🎨 Customization
 
