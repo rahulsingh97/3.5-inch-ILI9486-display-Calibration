@@ -1,6 +1,6 @@
 # 🎯 Touch Screen Calibration Tool v2.0
 
-![Demo Image](demo_image.jpg)
+![Demo Image](touch_calibration_1.jpg)
 
 **An essential utility for accurate touch calibration on ILI9488 TFT LCD displays.**
 
