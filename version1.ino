@@ -46,11 +46,7 @@ void setup() {
 //serial print tft.width() and tft.height() to get the screen size 
   Serial.print("Screen size is "); Serial.print(tft.width()); Serial.print("x"); Serial.println(tft.height());
 
-  int diplay_width = tft.width()-30; // for calibration if xy is over shoting
-  int diplay_height = tft.height()-30; // for calibration if xy is over shoting
-
-  int diplay_width_1 = +30; // for calibration if xy is over shoting
-  int diplay_height_1 = +30; // for calibration if xy is over shoting
+ 
   // Draw initial screen
   initScreen();
 }
@@ -145,6 +141,11 @@ void loop() {
   pinMode(YP, OUTPUT);
   
   if (p.z > MINPRESSURE && p.z < MAXPRESSURE) {
+     int diplay_width = tft.width()-30; // for calibration if xy is over shoting
+  int diplay_height = tft.height()-30; // for calibration if xy is over shoting
+
+  int diplay_width_1 = +30; // for calibration if xy is over shoting
+  int diplay_height_1 = +30; // for calibration if xy is over shoting
     // Map the raw touch coordinates to screen coordinates
     int mapped_x = map(p.y, TS_MINX, TS_MAXX, diplay_width, diplay_width_1);  // Inverted X 
     int mapped_y = map(p.x, TS_MINY, TS_MAXY, diplay_height, diplay_height_1); // Inverted Y
