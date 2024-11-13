@@ -158,4 +158,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 Enjoy using the **Touch Screen Calibration Tool** and feel free to reach out for any questions or support! 😊
 
-```
+---
